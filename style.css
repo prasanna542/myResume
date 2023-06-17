@@ -17,6 +17,8 @@ body{
     padding: 0px;
     margin: 0px;
     border: 0px;
+    background-color:#1E5162;
+    color: white;
 }
 
 .heading1{
@@ -26,14 +28,39 @@ margin: 3% 5% 3% 5%;
 
 .card{
     display: inline-block;
-    /* width: 80px; */
+    border: none;
+    background-color: #1E5162;
+   
 }
 
 .right{
-
-    /* margin-left: 50%; */
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
-@media{
+ @media (min-width: 992px) { 
+    .right{
 
-}
+        margin-left: 50%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        /* border-radius: 10%; */
+        /* margin: 5% 0%; */
+     } 
+  }
+
+
+ .left:hover{
+    opacity: 50%;
+ } 
+
+ .right:hover{
+    opacity: 50%;
+
+ }
+
+ .card-img-top{
+    border-radius: 5%;
+ }
+
+ 
